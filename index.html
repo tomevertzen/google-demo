@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -12,11 +16,15 @@
       <!-- NAVIGATION STARTS HERE -->
       <nav class="clearfix">
         <ul>
-          <li><a>Gmail</a></li>
-          <li><a>Images</a></li>
-          <li><a>Google Apps</a></li>
-          <li><a>Google Notifications</a></li>
-          <li><a>Google-account</a></li>
+          <li><a class="navborder">Gmail</a></li>
+          <li><a class="navborder">Images</a></li>
+          <li>
+            <a class="apps">apps</a>
+          </li>
+          <li><a class="notification">notifications</a></li>
+          <li>
+            <a><img class="account" src="img/account.png" alt="account"/></a>
+          </li>
         </ul>
       </nav>
 
@@ -27,6 +35,11 @@
             alt="Logo"
             class="logo"
           />
+        </div>
+        <input class="searchbar" type="text" />
+        <div class="buttons">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
         </div>
       </div>
     </div>
