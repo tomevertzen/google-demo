@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 92px;
+  width: 272px;
+  padding-top: 109px;
+  clear: both;
+}
+
+.logospace {
+  width: 100%;
+  height: 300px;
+  text-align: -webkit-center;
+}
+
+/* NAVIGATIE */
+
+nav {
+  display: block;
+}
+
+nav a {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+  overflow: hidden;
+}
+
+nav ul li {
+  padding-left: 10px;
+  display: inline;
+}
+
+.clearfix:after {
+  content: ' '; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
