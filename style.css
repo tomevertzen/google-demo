@@ -68,8 +68,8 @@ nav a {
   font-size: 14px;
 }
 
-.navborder:hover {
-  border-bottom: 1px solid #5f6368;
+nav a:hover {
+  text-decoration: underline;
 }
 
 nav ul {
@@ -84,7 +84,8 @@ nav ul li {
 }
 
 .clearfix:after {
-  content: ' '; /* Older browser do not support empty content */
+  content: ' ';
+  /* Older browser do not support empty content */
   visibility: hidden;
   display: block;
   height: 0;
@@ -128,4 +129,48 @@ nav ul li {
 
 nav a {
   cursor: pointer;
+}
+
+
+.language {
+  font-size: 14px;
+  margin-top: 1.1em;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  vertical-align: middle;
+  border-top: 1px solid #e2e2e2;
+}
+
+.lbar {
+  float: left;
+
+}
+
+.rbar {
+  float: right;
+  padding-right: 20px;
+}
+
+.lbar a,
+.rbar a {
+  padding-left: 20px;
+  color: #5f6368;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.lbar a:hover,
+.rbar a:hover {
+  color: #5f6368;
+  font-size: 14px;
+  text-decoration: underline;
 }
