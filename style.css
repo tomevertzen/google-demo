@@ -56,7 +56,7 @@ button {
   border: 1px solid #f2f2f2;
 }
 
-/* NAVIGATIE */
+/* NAVIGATION ***************************/
 
 nav {
   display: block;
@@ -131,12 +131,12 @@ nav a {
   cursor: pointer;
 }
 
-
 .language {
   font-size: 14px;
   margin-top: 1.1em;
 }
 
+/* FOOTER PART *******************************/
 
 footer {
   position: fixed;
@@ -152,7 +152,6 @@ footer {
 
 .lbar {
   float: left;
-
 }
 
 .rbar {
